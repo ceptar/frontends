@@ -1,0 +1,6 @@
+html,
+:host {
+  font-family: 'sans', sans-serif;
+  letter-spacing: 0.02rem;
+  line-height: 1.5rem;
+}

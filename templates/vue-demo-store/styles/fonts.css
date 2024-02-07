@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'sans';
+  size-adjust: 90%;
+  src: url('/fonts/mulishVar.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'headings';
+  src: url('/fonts/libreVar.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}

@@ -16,25 +16,30 @@ export default defineConfig({
     // @see https://tailwindcss.com/docs/customizing-colors
     colors: {
       primary: {
-        DEFAULT: "#0d588f",
-        100: "#dbeafe",
-        200: "#bfdbfe",
-        500: "#3b82f6",
-        600: "#2563eb",
-        700: "#1d4ed8",
+        DEFAULT: "#212529",
+        50: "#e3e7ea",
+        100: "#cbd3d6",
+        200: "#a6b4ba",
+        300: "#7a8c96",
+        400: "#5f717b",
+        500: "#515f69",
+        600: "#465058",
+        700: "#3e454c",
+        800: "#373d42",
+        900:"#212529",
       },
       secondary: {
-        DEFAULT: "#6b7280",
-        50: "#f9fafb",
-        100: "#f3f4f6",
-        200: "#e5e7eb",
-        300: "#d1d5db",
-        400: "#9ca3af",
-        500: "#6b7280",
-        600: "#475569",
-        700: "#374151",
-        800: "#1e293b",
-        900: "#111827",
+        DEFAULT: "#212529",
+        50: "#e3e7ea",
+        100: "#cbd3d6",
+        200: "#a6b4ba",
+        300: "#7a8c96",
+        400: "#5f717b",
+        500: "#515f69",
+        600: "#465058",
+        700: "#3e454c",
+        800: "#373d42",
+        900: "#212529",
       },
       light: {
         DEFAULT: "#5ebbff",
@@ -88,27 +93,32 @@ export default defineConfig({
     {
       getCSS: () => `
       h1 {
-        line-height: 2.5rem;
-        font-size: 2.25rem;
+        font-family: 'headings';
+        line-height: 3rem;
+        font-size: 2.8rem;
       }
       h2 {
-        line-height: 2rem;
-        font-size: 1.75rem;
+        font-family: 'headings';
+        line-height: 2.5rem;
+        font-size: 2.2rem;
       }
       h3 {
         line-height: 1.5rem;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
       }
       ol,
       ul,
       dl {
         list-style-type: disc;
-        padding-left: 40px;
+
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
       }
       ol {
         list-style-type: decimal;
+      }
+      u {
+        text-decoration: none;
       }
       `,
     },

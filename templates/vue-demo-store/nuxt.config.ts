@@ -96,6 +96,8 @@ export default defineNuxtConfig({
   },
   css: [
     "@unocss/reset/tailwind-compat.css", // needed to reset styles see https://unocss.dev/guide/style-reset (@unocss/reset)
+    "~/styles/fonts.css",
+    "~/styles/custom.css",
   ],
   router: {
     options: {
